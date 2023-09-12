@@ -1,0 +1,15 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: lightgreen;
+  justify-content: space-around;
+  padding: 0.75rem;
+}
+
+nav a {
+  color: brown;
+  font-size: 2rem;
+}
