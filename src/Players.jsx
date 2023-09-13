@@ -4,7 +4,8 @@ const Players = ({ players })=> {
   console.log(players)
   return (
     <div>
-      <h1>Players</h1>
+      <h1>Welcome to the 2023 Puppy Bowl!</h1>
+      <h3>Please click a player to see more details!</h3>
       <ul>
         {
           players.map( player => {
