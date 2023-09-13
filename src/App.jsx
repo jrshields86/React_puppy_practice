@@ -11,7 +11,6 @@ function App() {
   
   useEffect(()=> {
     const fetchPlayers = async()=> {
-    
     const response = await axios.get('https://fsa-puppy-bowl.herokuapp.com/api/2307-FTB-ET-WEB-FT/players')
     const data = response.data.data.players;
     
