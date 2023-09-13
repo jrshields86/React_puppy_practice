@@ -12,4 +12,9 @@ nav {
 nav a {
   color: brown;
   font-size: 2rem;
+  padding: 0.5rem;
+}
+
+nav a.selected {
+  border: solid 2px brown;
 }
